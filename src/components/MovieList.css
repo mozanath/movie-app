@@ -1,0 +1,71 @@
+.movie-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .movie-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .movie-item {
+    margin: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #141414;
+    color: #fff;
+    width: 300px; /* Atur lebar item pada desktop */
+  }
+  
+  .movie-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-item img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .movie-item a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .movie-title {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Optional: Add some background color or gradient */
+  .movie-list-container {
+    background: #000;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 1200px) {
+    .movie-item {
+      width: 48%; /* 2 items per row on tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .movie-item {
+      width: 100%; /* Full width on mobile devices */
+    }
+  }
+  

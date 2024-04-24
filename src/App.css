@@ -1,0 +1,63 @@
+/* App.css */
+
+/* Style untuk header */
+header {
+  background-color: #282c34;
+  padding: 20px;
+}
+
+/* Style untuk judul */
+h1 {
+  color: #e50914;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style untuk container film */
+.movie-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style untuk kartu film */
+.movie-card {
+  width: 250px;
+  background-color: #f8f8f8;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style untuk gambar film */
+.movie-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Style untuk judul film */
+.movie-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Style untuk tombol detail */
+.detail-button {
+  display: block;
+  margin-top: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Style untuk tombol detail saat dihover */
+.detail-button:hover {
+  background-color: #d10813;
+}
